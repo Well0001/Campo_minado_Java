@@ -7,7 +7,7 @@ import br.com.wellington.cm.modelo.Tabuleiro;
 @SuppressWarnings("serial")
 public class TelaPrincipal extends JFrame {
 	public TelaPrincipal() {
-		Tabuleiro tabuleiro = new Tabuleiro(16, 30, 5);
+		Tabuleiro tabuleiro = new Tabuleiro(16, 30, 45);
 		add(new PainelTabuleiro(tabuleiro));
 		setTitle("CAMPO MINADO");
 		setSize(690, 438);
